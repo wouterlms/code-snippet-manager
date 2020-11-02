@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "payload": {
+    "js": {
+      "contentType": "js",
+      "id": "js",
+      "options": { "detectInfiniteLoops": true, "dependencies": {} },
+      "syntax": "typescript",
+      "version": "default",
+      "textInput": "/* It's empty as in deep space here */\nconst x: numqsdqdber = 1sq;",
+      "errors": [
+        {
+          "line": 2,
+          "message": "An identifier or keyword cannot immediately follow a numeric literal."
+        }
+      ],
+      "logs": [],
+      "textOutput": "\"use strict\";\n/* It's empty as in deep space here */\nvar x = 1,sq;",
+      "metadata": {
+        "assets": [],
+        "browserModuleImportPaths": [],
+        "bundles": [],
+        "importPaths": []
+      }
+    }
+  },
+  "errors": null
+}
